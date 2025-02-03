@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="263d86e7-6689-442c-8e93-38363ddc2a46">
+  <name>ВКМ_Операции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов</parentSubsystem>
+</mdclass:Subsystem>

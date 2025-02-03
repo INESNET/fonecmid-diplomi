@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e51a2c9e-7216-413b-9c5c-d6766bdd55ad">
+  <producedTypes>
+    <objectType typeId="e1d0c4a0-99bb-406e-aca2-6a6e3d3f317f" valueTypeId="fd20fea1-ead6-4833-b136-69822bd0b8a8"/>
+    <refType typeId="a8b19127-b4d6-4ca0-8ea0-37d3cb93b39d" valueTypeId="ef506734-de74-4d8e-8af9-c4aa1ca0b607"/>
+    <selectionType typeId="c1b8cc22-b879-4075-9f35-07ae1c32812a" valueTypeId="3ec06731-f1d4-4ade-9ac9-ea4457ca1ac9"/>
+    <listType typeId="1e23f1c4-b42a-459e-80d1-7d1f4a9b95ac" valueTypeId="66946eea-c173-4a13-b681-a9bbedae5005"/>
+    <managerType typeId="ca588279-faaa-40b4-bf67-614516d765f3" valueTypeId="cc6cb55f-0c66-4f5a-9c79-a2db5cb83a37"/>
+  </producedTypes>
+  <name>ВКМ_ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ физические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a43a3bdd-2bc9-482d-86c5-68f8b33b22e5">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
