@@ -10,7 +10,7 @@
   <name>ВКМ_ФизическиеЛица</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ физические лица</value>
+    <value>Физические лица</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Code</inputByString>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="503b9fb1-bef1-4aaa-9232-ed9a323c5f2d">
+  <name>TelerramBot</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telerram bot</value>
+  </synonym>
+  <rootURL>send</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="82e97ce7-5569-49fc-83a0-3e5ce81979cb">
+    <name>Отправитьсообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитьсообщение</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="4cada5b8-05ac-486e-b7e8-163222c83904">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОтправитьсообщениеPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

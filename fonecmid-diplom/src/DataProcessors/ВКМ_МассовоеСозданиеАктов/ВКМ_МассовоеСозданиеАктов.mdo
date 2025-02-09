@@ -10,6 +10,7 @@
     <value>Массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="b14367e8-c06b-46d3-9da3-f8f3cf7faed4">
     <name>Период</name>
     <synonym>
@@ -17,10 +18,7 @@
       <value>Период</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>StandardPeriod</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -47,17 +45,26 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="cf5c1378-bb85-404b-b001-8a260c3a1bfd">
+    <attributes uuid="2e01f5ae-7abf-4dcf-ab49-7bde3bf3caf1">
       <name>Ссылки</name>
       <synonym>
         <key>ru</key>
         <value>Ссылки</value>
       </synonym>
       <type>
-        <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
+  <forms uuid="e881cdc4-0f90-402d-b674-391720350ee3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

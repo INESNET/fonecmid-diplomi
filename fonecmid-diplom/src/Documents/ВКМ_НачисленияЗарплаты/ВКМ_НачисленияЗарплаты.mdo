@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="8aed0a51-0937-47f6-a5e2-f742cc80676a">
@@ -32,19 +33,19 @@
       <objectType typeId="cb618619-054a-4831-a0e2-be62fa07897e" valueTypeId="2bfa3fca-b717-4e2c-aa74-edd159d62486"/>
       <rowType typeId="c06df3b6-d6f5-4b04-85e6-3aa2b03972e5" valueTypeId="f2577fd2-bdee-4685-bcef-76b12073ce13"/>
     </producedTypes>
-    <name>ОсновныеНачисления</name>
+    <name>Начисления</name>
     <synonym>
       <key>ru</key>
-      <value>Основные начисления</value>
+      <value>Начисления</value>
     </synonym>
     <attributes uuid="56eae133-7cf5-4884-a8e1-ceae13784fd6">
-      <name>Специалист</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
-        <value>Специалист</value>
+        <value>Сотрудник</value>
       </synonym>
       <type>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВКМ_ФизическиеЛица</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -72,7 +73,6 @@
         <value>Вид расчета</value>
       </synonym>
       <type>
-        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
         <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -114,88 +114,67 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="4dd41811-82bb-4077-9a7d-ab3238329607">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
-  <tabularSections uuid="457406da-37d3-4e48-9693-08c5c94f4690">
+  <tabularSections uuid="c72bb525-071b-4f7b-a57a-a7dd1df922d6">
     <producedTypes>
-      <objectType typeId="266d750f-3a92-4b5b-b616-b2a0e21ad81d" valueTypeId="cbc2368c-11c6-4e7d-90b3-986f4782d337"/>
-      <rowType typeId="68727394-c516-4e84-9543-46035004ad0d" valueTypeId="23a4e7bd-8e58-47df-930d-720d3acf60ac"/>
+      <objectType typeId="2a5da0c2-9b66-4e0d-af27-6c650a9cedd4" valueTypeId="6d680416-f7be-4b58-9d4a-c5b26da1d340"/>
+      <rowType typeId="8fbc44c3-fb43-4eaa-a984-2a0e55054289" valueTypeId="f0301bb9-dca7-49e4-a482-68358258df7f"/>
     </producedTypes>
-    <name>ДополнительныеНачисления</name>
+    <name>Удержания</name>
     <synonym>
       <key>ru</key>
-      <value>Дополнительные начисления</value>
+      <value>Удержания</value>
     </synonym>
-    <attributes uuid="46ddfdf6-1a2f-41d0-be52-08dc0bd844cc">
-      <name>Специалист</name>
+    <attributes uuid="8d0ae397-4a66-4404-8f98-f84fbd98f61e">
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
-        <value>Специалист</value>
+        <value>Сотрудник</value>
       </synonym>
       <type>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВКМ_ФизическиеЛица</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6fdd9e64-04f4-4005-a91c-3bc1c8e99a05">
-      <name>ГрафикРаботы</name>
+    <attributes uuid="27cecb76-0a1b-4da7-85c7-e7f719274864">
+      <name>Подразделение</name>
       <synonym>
         <key>ru</key>
-        <value>График работы</value>
+        <value>Подразделение</value>
       </synonym>
       <type>
-        <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+        <types>CatalogRef.ВКМ_Подразделения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="314a02d3-4f3a-44a4-b4df-f7edc65df1f1">
+    <attributes uuid="89e2a86f-2a9a-4ca7-b2c5-50b8414550f6">
       <name>ВидРасчета</name>
       <synonym>
         <key>ru</key>
         <value>Вид расчета</value>
       </synonym>
       <type>
-        <types>ChartOfCalculationTypesRef.ВКМ_ДополнительныеНачисления</types>
-        <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="77ba8ea5-1564-4731-8a59-3bd510701c3d">
-      <name>ДатаНачала</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата начала</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="5c394f9b-2323-4440-8c43-c5b3d00e8983">
-      <name>ДатаОкончания</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дата окончания</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <types>ChartOfCalculationTypesRef.ВКМ_Удержания</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
