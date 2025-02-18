@@ -42,6 +42,7 @@
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
     </items>
     <items id="72af9917-f4df-4a3c-9691-f8b7f9655723">
       <name>Отпуск</name>
@@ -49,7 +50,23 @@
       <code xsi:type="core:StringValue">
         <value>2</value>
       </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
     </items>
   </predefined>
+  <attributes uuid="5836e404-7e33-4aff-b788-a1beb63c55df">
+    <name>СпособРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_СпособРасчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:ChartOfCalculationTypes>

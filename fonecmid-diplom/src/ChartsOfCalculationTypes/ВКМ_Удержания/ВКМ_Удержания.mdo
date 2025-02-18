@@ -48,4 +48,19 @@
       <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияОтПродаж</base>
     </items>
   </predefined>
+  <attributes uuid="df390aaa-d48c-4b0b-a3bc-90be937161c6">
+    <name>СпособРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_СпособРасчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:ChartOfCalculationTypes>

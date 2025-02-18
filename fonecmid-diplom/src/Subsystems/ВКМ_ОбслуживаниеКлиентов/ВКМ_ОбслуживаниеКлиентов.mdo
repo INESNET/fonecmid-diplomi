@@ -28,6 +28,10 @@
   <content>CalculationRegister.ВКМ_Удержания</content>
   <content>ScheduledJob.ВКМ_ОтправкаСообщенийТГ</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
 </mdclass:Subsystem>

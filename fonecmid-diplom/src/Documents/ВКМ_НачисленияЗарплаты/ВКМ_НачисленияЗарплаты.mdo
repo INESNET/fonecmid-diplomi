@@ -52,14 +52,14 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="077843f7-aee0-4c27-8c5e-74f772413dfe">
-      <name>ГрафикРаботы</name>
+    <attributes uuid="4dd41811-82bb-4077-9a7d-ab3238329607">
+      <name>Подразделение</name>
       <synonym>
         <key>ru</key>
-        <value>График работы</value>
+        <value>Подразделение</value>
       </synonym>
       <type>
-        <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+        <types>CatalogRef.ВКМ_Подразделения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -74,6 +74,20 @@
       </synonym>
       <type>
         <types>ChartOfCalculationTypesRef.ВКМ_ОсновныеНачисления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="077843f7-aee0-4c27-8c5e-74f772413dfe">
+      <name>ГрафикРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>График работы</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -108,20 +122,6 @@
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="4dd41811-82bb-4077-9a7d-ab3238329607">
-      <name>Подразделение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Подразделение</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВКМ_Подразделения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

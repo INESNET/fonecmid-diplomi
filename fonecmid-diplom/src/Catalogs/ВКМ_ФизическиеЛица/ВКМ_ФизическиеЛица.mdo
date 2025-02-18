@@ -37,7 +37,7 @@
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+      <types>CatalogRef.ВКМ_Подразделения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

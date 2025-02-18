@@ -23,9 +23,19 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ВыплатаЗарплаты.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="30fa4e95-ec76-4dee-969c-2cbc623d33d3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="0da067da-98d3-442b-ac1a-f98c3bb723b6">
     <producedTypes>
       <objectType typeId="4ae136e7-78b0-496a-a350-6be5ef2f9cd9" valueTypeId="dd1d18e8-08e9-4450-bb88-93defdfeccfa"/>
@@ -50,6 +60,20 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="be3a2651-3483-4b5a-b908-31724a5b90a0">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВКМ_Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="f949f267-263a-404c-9fb1-64fb9d02b208">
       <name>Сумма</name>
       <synonym>
@@ -62,20 +86,6 @@
           <precision>15</precision>
           <scale>2</scale>
         </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="be3a2651-3483-4b5a-b908-31724a5b90a0">
-      <name>Подразделение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Подразделение</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВКМ_Подразделения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

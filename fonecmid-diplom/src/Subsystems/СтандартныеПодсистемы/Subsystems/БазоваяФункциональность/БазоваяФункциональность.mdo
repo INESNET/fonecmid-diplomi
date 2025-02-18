@@ -378,5 +378,7 @@
   <content>CommonPicture.ВажностьНеЗадана</content>
   <content>CommonPicture.ВажностьНизкая</content>
   <content>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</content>
+  <content>Role.ВКМ_РаботаСДокументомОбслуживаниеКлиента</content>
+  <content>Role.ВКМ_РасчетЗарплаты</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
